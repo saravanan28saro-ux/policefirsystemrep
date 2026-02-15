@@ -52,3 +52,19 @@ font-size:30px;
 margin-left:90px;
 margin-top:50px;
 `
+export const Fircard=styled.div`
+display:flex;
+align-items:center;
+flex-direction:column;
+padding:20px;`
+
+export const Listcard=styled.div`
+display:flex;   
+flex-direction:row ;
+justify-content:space-around;
+gap:20px;
+background-color:#f0f0f0;  
+padding:10px;
+border-radius:5px;
+margin-bottom:10px;
+`  

@@ -14,7 +14,7 @@ const Home=()=>{
         </Hometext>
         
     </Homecard1>  
-    <div><hr></hr></div>
+    <div><hr/></div>
     <div>
         <Contact/>
     </div>
