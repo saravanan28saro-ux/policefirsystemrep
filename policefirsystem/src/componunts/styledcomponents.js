@@ -31,6 +31,24 @@ export const ContactContainer=styled.div`
 align-items:center;
 display:flex;
 flex-direction:column;
-gap:1px;
-margin-top:10px;
+gap:0px;
+font-weight:500;
+margin-top:0px;
+margin-bottom:20px;
+`
+export const Homecard1=styled.div`
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+padding:20px;
+height:500px;
+margin-bottom:0px;
+`
+export const Hometext=styled.div`
+display:flex;
+align-items:center;
+flex-direction:column;
+font-size:30px;
+margin-left:90px;
+margin-top:50px;
 `

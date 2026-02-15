@@ -1,10 +1,14 @@
 import {HeaderContainer,Headerlist,HeaderButton}from "./styledcomponents";
 import {Link} from "react-router-dom";
-import "./index.css"
+import policelogo from "../image/policelogo.jpeg";
+import "./index.css";
+
 const Header=()=>{
 return(
     <HeaderContainer className="header">
-        <div><img src="" alt="logo"/></div>
+        <div>
+            <img src={policelogo} alt="logo" className="logoimage"/>
+        </div>
         
             <Headerlist >
                 <Link className="headerlink" to="/">Home</Link>
