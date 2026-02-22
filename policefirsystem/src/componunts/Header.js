@@ -4,6 +4,7 @@ import policelogo from "../image/policelogo.jpeg";
 import "./index.css";
 
 const Header=()=>{
+    
 return(
     <HeaderContainer className="header">
         <div>
@@ -20,7 +21,7 @@ return(
       
         <div>
             <HeaderButton>
-                login
+            <Link style={{color:"black",alignItems:"center"}} className="headerlink" to="/login">Login</Link>
             </HeaderButton>
         </div>
 

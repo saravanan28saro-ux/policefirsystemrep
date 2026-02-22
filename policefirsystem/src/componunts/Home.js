@@ -1,10 +1,10 @@
 import {Homecard1,Hometext}from "./styledcomponents";
-import policelogo from "../image/policelogo.jpeg";
+import police from "../image/policelogo.jpeg";
 import Contact from "./Contact";
 const Home=()=>{
     return <div><Homecard1>
         <div>
-            <img src={policelogo} alt="logo" className="homelogoimage"/> 
+            <img src={police} alt="logo" className="homelogoimage"/> 
         </div>
         <Hometext>
             <h1>TAMILNADU POLICE SERVICE</h1>

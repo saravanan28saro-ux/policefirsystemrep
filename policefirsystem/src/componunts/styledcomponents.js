@@ -68,3 +68,33 @@ padding:10px;
 border-radius:5px;
 margin-bottom:10px;
 `  
+
+export const Logincard=styled.div`
+display:flex;  
+flex-direction:column ;
+align-items:center;
+justify-content:space-around; 
+gap:20px;
+border:1px solid #ccc;
+padding:20px;
+`
+export const LoginButton=styled.button`
+background-color:#000;
+color:#fff;
+border:none;
+border-radius:5px;
+cursor:pointer;
+height:40px;
+width:100px;
+font-size:16px;
+font-weight:bold;
+`
+export const Logininput=styled.input`
+border-radius:5px;
+height:30px;
+width:500px;
+padding:5px;
+border:1px solid #ccc;
+font-size:16px;
+font-weight:bold;
+`
