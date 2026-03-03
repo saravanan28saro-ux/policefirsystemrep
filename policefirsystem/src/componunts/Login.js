@@ -1,13 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Logincard, LoginButton, Logininput } from "./styledcomponents";
-
-const policeusers = [
-  { username: "saravanan", userid: "TN1234" },
-  { username: "kumar", userid: "TN5678" },
-  { username: "priya", userid: "TN9012" }
-];
-
+import { policeusers } from "../data/firdate";
 const Login = () => {
   const [username, setusername] = useState("");
   const [userid, setuserid] = useState("TN");
@@ -19,7 +13,7 @@ const Login = () => {
     );
 
     if (user) {
-      // ✅ Navigate with multiple params
+      
       navigate(`/addfir/${username}/${userid}`);
     } else {
       alert("Invalid Credentials");

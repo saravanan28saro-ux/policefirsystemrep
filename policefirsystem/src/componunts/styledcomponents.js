@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const HeaderContainer=styled.div`
 display:flex;
 flex-direction:row;
@@ -97,4 +98,28 @@ padding:5px;
 border:1px solid #ccc;
 font-size:16px;
 font-weight:bold;
+`
+export const Addform =styled.form`
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+gap:20px;
+padding:20px;
+`
+export const Supportcard=styled.div`
+display:flex;   
+flex-direction:column ;
+justify-content:space-around;
+gap:20px;
+background-color:#f0f0f0;
+padding:20px;
+border-radius:5px;
+margin-bottom:10px;
+`
+export const Supportlist=styled.div`
+font-size:20px;
+font-weight:bold;
+`
+export const Listcards=styled.div`
 `

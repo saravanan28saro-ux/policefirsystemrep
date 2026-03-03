@@ -28,3 +28,12 @@ export const firdata=[
     }
 
     ]
+export const addfunction=(newfirdata)=>{
+    firdata.push(newfirdata);
+}
+
+export const policeusers = [
+  { username: "saravanan", userid: "TN1234" ,rank:"Inspector",posting:"Chennai","contact":"1234567890"},
+  { username: "kumar", userid: "TN5678" ,rank:"Sub-Inspector",posting:"Coimbatore","contact":"0987654321"},
+  { username: "priya", userid: "TN9012" ,rank:"Assistant",posting:"Madurai","contact":"1122334455"}
+];
