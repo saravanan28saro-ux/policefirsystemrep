@@ -11,7 +11,8 @@ const Addfir = () => {
     event.preventDefault();
     
     addfunction(newfirdata);
-    console.log(newfirdata);
+    
+    alert("FIR submitted successfully");
     setnewfirdata({firno:"",name:"",place:"",description:"",status:"" ,date:"",time:"" });
     console.log("FIR submitted successfully");
   }

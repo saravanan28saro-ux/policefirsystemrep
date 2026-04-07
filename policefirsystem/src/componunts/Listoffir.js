@@ -1,7 +1,8 @@
 import {Listcard} from "./styledcomponents";
 const Listoffir = ({data}) => {
     return (
-        <div>
+        <a href="https://pbs.twimg.com/media/FGXrSpeVgAQG4hR?format=jpg&name=medium" style={{textDecoration:"none",color:"black"}}>
+        <div >
             {data.map(fir => (
                 <div key={fir.firno}>
                     <h2>FIR Number: {fir.firno}</h2>
@@ -15,7 +16,7 @@ const Listoffir = ({data}) => {
                     </Listcard>
                 </div>
             ))}
-        </div>
+        </div></a>
     );
 };
 
