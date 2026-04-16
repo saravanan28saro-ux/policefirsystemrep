@@ -31,6 +31,15 @@ export const firdata=[
 export const addfunction=(newfirdata)=>{
     firdata.push(newfirdata);
 }
+export const deletefunction=(firno)=>{
+    const index = firdata.findIndex(fir => fir.firno === firno);
+    if (index !== -1) {
+        firdata.splice(index, 1);
+    }
+    
+    
+}
+
 
 export const policeusers = [
   { username: "saravanan", userid: "TN1234" ,rank:"Inspector",posting:"Chennai","contact":"1234567890"},

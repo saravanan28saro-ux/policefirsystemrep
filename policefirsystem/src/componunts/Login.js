@@ -14,7 +14,7 @@ const Login = () => {
 
     if (user) {
       
-      navigate(`/addfir/${username}/${userid}`);
+      navigate(`/Select/${user.username}/${user.userid}`);
     } else {
       alert("Invalid Credentials");
     }

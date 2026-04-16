@@ -9,6 +9,8 @@ import NotFound from './componunts/NotFound'
 import Header from './componunts/Header'
 import Login from './componunts/Login'
 import Addfir from './componunts/Addfir'
+import {Select} from './componunts/Select'
+import { Removefir } from './componunts/Removefir'
 
 const App = () => {
   return (
@@ -20,8 +22,9 @@ const App = () => {
         <Route path="/fir" element={<Fir />} />
         <Route path="/support" element={<Support />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/addfir/:username/:userid" element={<Addfir />} />
-        
+        <Route path="/addfir" element={<Addfir />} />
+        <Route path="/Select/:username/:userid" element={<Select />} />
+        <Route path="/removefir" element={<Removefir />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
